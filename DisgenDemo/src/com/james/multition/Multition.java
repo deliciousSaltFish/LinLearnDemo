@@ -31,6 +31,10 @@ public class Multition {
         //随机取出一个实例
         return (Multition)multList.get(countNum);
     }
+    public static Multition getInstance(int num){
+        //随机取出一个实例
+        return (Multition)multList.get(num);
+    }
     public static void multInforList(){
         System.out.println(multInforList.get(countNum) );
     }
