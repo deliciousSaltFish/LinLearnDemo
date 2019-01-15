@@ -6,7 +6,7 @@ public class Context {
     public Context(IStrategy strategy){
         this.strategy=strategy;
     }
-    //
+    //调用传入的策略
     public void operate(){
         this.strategy.operate();
     }
