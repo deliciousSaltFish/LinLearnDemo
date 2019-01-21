@@ -10,10 +10,20 @@ package com.james.factory;
  * @Version: 1.0
  */
 public interface IFactory {
-    /**创建
+    /**
+     * fetch data by rule id
+     *
+     * @param
+     * @param
+     * @return void
      */
     public IProducts createCar();
-    /**创建
+    /**
+     * fetch data by rule id
+     *
+     * @param
+     * @param
+     * @return void
      */
     public IProducts createBike();
 }

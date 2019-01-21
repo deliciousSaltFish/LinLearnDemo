@@ -10,7 +10,7 @@ package com.james.factory;
  * @Version: 1.0
  */
 
-public class BlackBike extends Bike{
+public class BlackBike extends AbstractBike {
     public void color(){
         System.out.println("我是一辆小黑自行车");
     }

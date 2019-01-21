@@ -10,7 +10,7 @@ package com.james.factory;
  * @Version: 1.0
  */
 
-public abstract class Car implements IProducts{
+public abstract class AbstractCar implements IProducts{
 
     public void dirve() {
         System.out.println("我是一辆车，可以开！");

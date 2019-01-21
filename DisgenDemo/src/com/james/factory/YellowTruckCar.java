@@ -10,7 +10,7 @@ package com.james.factory;
  * @Version: 1.0
  */
 
-public class YellowTruckCar extends Car{
+public class YellowTruckCar extends AbstractCar {
     public void type(){
         System.out.println("我是一辆黄色卡车！");
     }
