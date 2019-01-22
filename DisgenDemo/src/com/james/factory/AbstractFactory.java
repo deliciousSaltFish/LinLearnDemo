@@ -13,7 +13,7 @@ package com.james.factory;
 public abstract class AbstractFactory implements IFactory {
     protected IProducts create(Class c) {
         IProducts iProducts = null;
-       if (!c.getName().equals("")) {
+       if (!"".equals(c.getName())) {
             try {
                 iProducts=(IProducts)Class.forName(c.getName()).newInstance();
             } catch (Exception e) {
