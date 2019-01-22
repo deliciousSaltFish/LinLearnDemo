@@ -12,13 +12,16 @@ package com.james.factory;
 
 public class Client {
     public static void main(String[] args) {
-        IFactory iFactoryBike=new BikeFactoryCreate();
-        IFactory iFactoryCar=new TruckFactoryCteate();
-        BlackBike bike= (BlackBike) iFactoryBike.createBike();
-        BlackTruncCar truck= (BlackTruncCar) iFactoryCar.createCar();
-       bike.dirve();
-       bike.color();
-        truck.dirve();
-        truck.type();
+        IFactory blackBikeF=new BlackFactoryCreate();
+        IFactory blackCarF=new BlackFactoryCreate();
+        IFactory yellowCarF=new YellowFactoryCteate();
+        IFactory yellowBikeF=new YellowFactoryCteate();
+        BlackBike blackbike= (BlackBike) blackBikeF.createBike();
+        BlackTruncCar blacktruck= (BlackTruncCar) blackCarF.createCar();
+       //后面可以继续获取黄色自行车，卡车
+        blackbike.dirve();
+        blackbike.color();
+        blacktruck.dirve();
+        blacktruck.color();
     }
 }

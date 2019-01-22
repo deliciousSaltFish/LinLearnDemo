@@ -10,7 +10,7 @@ package com.james.factory;
  * @Version: 1.0
  */
 
-public class BikeFactoryCreate extends AbstractFactory {
+public class BlackFactoryCreate extends AbstractFactory {
     public IProducts createCar() {
         return super.create(BlackTruncCar.class);
     }

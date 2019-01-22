@@ -10,9 +10,9 @@ package com.james.factory;
  * @Version: 1.0
  */
 
-public class TruckFactoryCteate extends AbstractFactory {
+public class YellowFactoryCteate extends AbstractFactory {
     public IProducts createCar() {
-        return super.create(BlackTruncCar.class);
+        return super.create(YellowTruckCar.class);
     }
 
     public IProducts createBike() {

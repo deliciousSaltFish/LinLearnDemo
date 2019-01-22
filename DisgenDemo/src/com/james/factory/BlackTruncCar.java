@@ -11,7 +11,7 @@ package com.james.factory;
  */
 
 public class BlackTruncCar extends AbstractCar {
-    public void type(){
+    public void color(){
         System.out.println("我是一辆黑色卡车！");
     }
 }
