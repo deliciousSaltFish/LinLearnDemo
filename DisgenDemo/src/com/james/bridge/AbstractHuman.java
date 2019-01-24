@@ -10,7 +10,7 @@ package com.james.bridge;
  * @Version: 1.0
  */
 
-public abstract class Human {
+public abstract class AbstractHuman {
     private Woman woman;
 
     /**
@@ -21,7 +21,7 @@ public abstract class Human {
      * @return
      * @Date: 2019/1/24-22:22
      */
-    public Human(Woman woman){
+    public AbstractHuman(Woman woman){
         this.woman=woman;
     }
     /**

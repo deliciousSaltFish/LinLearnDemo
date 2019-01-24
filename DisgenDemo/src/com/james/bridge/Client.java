@@ -16,8 +16,8 @@ public class Client {
         FreignWoman freignWoman=new FreignWoman();
         //可以根据传入Woman的实例不同，调用不同的方法，
         //方便调整
-        Human man=new Man(chinesWoman) ;
-        Human son=new Son(chinesWoman) ;
+        AbstractHuman man=new Man(chinesWoman) ;
+        AbstractHuman son=new Son(chinesWoman) ;
         man.talk();
         son.talk();
     }

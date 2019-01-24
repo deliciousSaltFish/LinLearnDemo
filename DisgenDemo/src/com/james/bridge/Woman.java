@@ -10,6 +10,13 @@ package com.james.bridge;
  * @Version: 1.0
  */
 
-public interface Woman {
+public interface Woman<Q> {
+    /**
+     *  衣服
+     *
+     * @param
+     * @return
+     * @Date: 2019/1/24-22:43
+     */
     public void cloth();
 }

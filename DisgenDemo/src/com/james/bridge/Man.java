@@ -10,7 +10,7 @@ package com.james.bridge;
  * @Version: 1.0
  */
 
-public class Man extends Human {
+public class Man extends AbstractHuman {
     /**
      * 把想调用的其他的实例传进来，限制
      * 其子类重写该构造方法
