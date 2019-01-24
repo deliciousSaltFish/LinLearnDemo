@@ -1,4 +1,4 @@
-package com.james.templateMethod;
+package com.james.templatemethod;
 
 /**
  * Description:
@@ -11,4 +11,13 @@ package com.james.templateMethod;
  */
 
 public class Client {
+    public static void main(String[] args) {
+        Tempate1 one=new Tempate1();
+        one.run();
+        System.out.println("--------------------------");
+        Template2 two=new Template2();
+        //二号控制是否抬左脚
+        two.setFlage(false);
+        two.run();
+    }
 }
