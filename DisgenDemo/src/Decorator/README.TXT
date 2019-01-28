@@ -1,0 +1,3 @@
+装饰模式：
+对有一个核心类进行修饰，price和dosomething都是装饰类
+decoratord作用是让两个修饰类指向核心类
