@@ -1,4 +1,4 @@
-package Decorator;
+package com.james.decorator;
 
 /**
  * Description:
