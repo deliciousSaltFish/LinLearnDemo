@@ -19,8 +19,8 @@ public class Client {
         bossOne.setNextHandler(bossTwo);
         //定义两个不同的员工，根据不同员工等级，执行对应职责的方法
         IWorker iWorker=new Worker(1, "上厕所");
-        bossOne.HandlerMessage(iWorker);
+        bossOne.handlerMessage(iWorker);
         iWorker=new Worker(2, "上厕所");
-        bossOne.HandlerMessage(iWorker);
+        bossOne.handlerMessage(iWorker);
     }
 }
